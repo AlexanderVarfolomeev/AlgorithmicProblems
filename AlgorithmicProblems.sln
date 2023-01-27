@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode", "Leetcode", "{048D1C99-1DCE-4465-8749-D76F44F8A4DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{DBADFDEA-4268-493E-9DA0-36E10C505E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Running Sum of 1d Array 1480", "Leetcode\Easy\Running Sum of 1d Array 1480\Running Sum of 1d Array 1480.csproj", "{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Pivot Index 724", "Leetcode\Easy\Find Pivot Index 724\Find Pivot Index 724.csproj", "{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate 217", "Leetcode\Easy\Contains Duplicate 217\Contains Duplicate 217.csproj", "{42BD137F-1D24-42CA-9232-C0328B04D156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{5E0749F6-A58C-403F-AD63-1DA813D33B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Subarray 53", "Leetcode\Medium\Maximum Subarray 53\Maximum Subarray 53.csproj", "{6899E9AB-1554-48AD-84D1-55BF45223BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBADFDEA-4268-493E-9DA0-36E10C505E75} = {048D1C99-1DCE-4465-8749-D76F44F8A4DC}
+		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{42BD137F-1D24-42CA-9232-C0328B04D156} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{5E0749F6-A58C-403F-AD63-1DA813D33B61} = {048D1C99-1DCE-4465-8749-D76F44F8A4DC}
+		{6899E9AB-1554-48AD-84D1-55BF45223BFC} = {5E0749F6-A58C-403F-AD63-1DA813D33B61}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A329F05B-9AFE-4C1D-912E-A77CDECEFD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BD137F-1D24-42CA-9232-C0328B04D156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BD137F-1D24-42CA-9232-C0328B04D156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BD137F-1D24-42CA-9232-C0328B04D156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BD137F-1D24-42CA-9232-C0328B04D156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6899E9AB-1554-48AD-84D1-55BF45223BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6899E9AB-1554-48AD-84D1-55BF45223BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6899E9AB-1554-48AD-84D1-55BF45223BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6899E9AB-1554-48AD-84D1-55BF45223BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
