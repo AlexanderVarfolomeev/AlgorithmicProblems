@@ -68,6 +68,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List Cycle 141", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Linked List Elements 203", "Leetcode\Easy\Remove Linked List Elements 203\Remove Linked List Elements 203.csproj", "{53D44459-5281-4EF9-A864-01550EB9CB19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate Binary Search Tree 98", "Leetcode\Medium\Validate Binary Search Tree 98\Validate Binary Search Tree 98.csproj", "{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lowest Common Ancestor of a Binary Search Tree 235", "Leetcode\Medium\Lowest Common Ancestor of a Binary Search Tree 235\Lowest Common Ancestor of a Binary Search Tree 235.csproj", "{854EA644-0282-47C7-A297-6F704085F6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Duplicates from Sorted List 83", "Leetcode\Easy\Remove Duplicates from Sorted List 83\Remove Duplicates from Sorted List 83.csproj", "{262A55ED-95EC-4DAA-8777-F68D4DD59107}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +113,9 @@ Global
 		{DD5AF99E-5BEA-4246-AB70-F77A310B34EE} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 		{8534AB16-DE7E-4DE7-8333-F0F42BB73B70} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 		{53D44459-5281-4EF9-A864-01550EB9CB19} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55} = {5E0749F6-A58C-403F-AD63-1DA813D33B61}
+		{854EA644-0282-47C7-A297-6F704085F6B9} = {5E0749F6-A58C-403F-AD63-1DA813D33B61}
+		{262A55ED-95EC-4DAA-8777-F68D4DD59107} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -233,5 +242,17 @@ Global
 		{53D44459-5281-4EF9-A864-01550EB9CB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D44459-5281-4EF9-A864-01550EB9CB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D44459-5281-4EF9-A864-01550EB9CB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED77D0E-C9FE-47F9-BEA4-A2A76927AF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854EA644-0282-47C7-A297-6F704085F6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854EA644-0282-47C7-A297-6F704085F6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854EA644-0282-47C7-A297-6F704085F6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854EA644-0282-47C7-A297-6F704085F6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262A55ED-95EC-4DAA-8777-F68D4DD59107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262A55ED-95EC-4DAA-8777-F68D4DD59107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262A55ED-95EC-4DAA-8777-F68D4DD59107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262A55ED-95EC-4DAA-8777-F68D4DD59107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
