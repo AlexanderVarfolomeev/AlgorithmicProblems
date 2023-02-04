@@ -10,9 +10,6 @@ public class Solution
 {
     public static void Main()
     {
-        TreeNode n2 = new TreeNode(1);
-        TreeNode n1 = new TreeNode(2, n2);
-        LowestCommonAncestor(n1, n1, n2);
     }
 
     public class TreeNode
@@ -28,33 +25,27 @@ public class Solution
             this.right = right;
         }
     }
-    
-    public static TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
+
+    public HashSet<TreeNode> set = new HashSet<TreeNode>();
+
+    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
     {
-        Stack<TreeNode> s1 = new Stack<TreeNode>();
-        Stack<TreeNode> s2 = new Stack<TreeNode>();
-        PathToNum(root, p, s1);
-        PathToNum(root, q, s2);
-        HashSet<TreeNode> set = new HashSet<TreeNode>();
-        while (s1.Count != 0)
-            set.Add(s1.Pop());
-        while (s2.Count!=0)
+        TreeNode res = new TreeNode();
+        PathToNum(root, p, res); 
+        PathToNum(root, q, res);
+        return res;
+    }
+
+    public void PathToNum(TreeNode root, TreeNode node, TreeNode res)
+    {
+        if (set.Contains(root))
         {
-            TreeNode n = s2.Pop();
-            if (set.Contains(n))
-                return n;
+            res = root;
+            return;
         }
 
-        return new TreeNode();
-    }
-
-    public static void PathToNum(TreeNode root, TreeNode node, Stack<TreeNode> stack)
-    {
-        stack.Push(root);
-
-        if(root == node)
+        if (root == node)
             return;
-        PathToNum(node.val > root.val ? root.right : root.left, node, stack);
+        PathToNum(node.val > root.val ? root.right : root.left, node, res);
     }
-    
 }
