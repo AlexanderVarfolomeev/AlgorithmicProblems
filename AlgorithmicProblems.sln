@@ -82,6 +82,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses 20", "Lee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement Queue using Stacks 232", "Leetcode\Easy\Implement Queue using Stacks 232\Implement Queue using Stacks 232.csproj", "{829D5E87-0849-4009-9C24-AB0DB6DF6413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Number  509", "Leetcode\Easy\Fibonacci Number  509\Fibonacci Number  509.csproj", "{0D0CD36E-0F22-406E-B141-1984FFFB1D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climbing Stairs 70", "Leetcode\Easy\Climbing Stairs 70\Climbing Stairs 70.csproj", "{0275D520-6C91-48D8-9EC9-9F9CB0737368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B inary Tree Preorder Traversal 144", "Leetcode\Easy\B inary Tree Preorder Traversal 144\B inary Tree Preorder Traversal 144.csproj", "{F8E8DE60-1161-41CB-A814-4B11CE4D52BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +134,9 @@ Global
 		{52AA541B-0B69-4473-A029-4D7CEDA32688} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 		{3A5635C5-7146-489B-A8B3-4A69B3CB9AA3} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 		{829D5E87-0849-4009-9C24-AB0DB6DF6413} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{0D0CD36E-0F22-406E-B141-1984FFFB1D1B} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{0275D520-6C91-48D8-9EC9-9F9CB0737368} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
+		{F8E8DE60-1161-41CB-A814-4B11CE4D52BB} = {DBADFDEA-4268-493E-9DA0-36E10C505E75}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0BC5F431-7273-4BF6-AB25-2ECAE45A05E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -282,5 +291,17 @@ Global
 		{829D5E87-0849-4009-9C24-AB0DB6DF6413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829D5E87-0849-4009-9C24-AB0DB6DF6413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829D5E87-0849-4009-9C24-AB0DB6DF6413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0CD36E-0F22-406E-B141-1984FFFB1D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0CD36E-0F22-406E-B141-1984FFFB1D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0CD36E-0F22-406E-B141-1984FFFB1D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0CD36E-0F22-406E-B141-1984FFFB1D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0275D520-6C91-48D8-9EC9-9F9CB0737368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0275D520-6C91-48D8-9EC9-9F9CB0737368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0275D520-6C91-48D8-9EC9-9F9CB0737368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0275D520-6C91-48D8-9EC9-9F9CB0737368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E8DE60-1161-41CB-A814-4B11CE4D52BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E8DE60-1161-41CB-A814-4B11CE4D52BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E8DE60-1161-41CB-A814-4B11CE4D52BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E8DE60-1161-41CB-A814-4B11CE4D52BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
